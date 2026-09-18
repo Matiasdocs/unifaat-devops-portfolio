@@ -1,0 +1,20 @@
+[0m[1mdata.aws_ami.amazon_linux: Reading...[0m[0m
+[0m[1maws_key_pair.main: Refreshing state... [id=technova-key][0m
+[0m[1maws_vpc.main: Refreshing state... [id=vpc-098acb235168d84fe][0m
+[0m[1mdata.aws_ami.amazon_linux: Read complete after 2s [id=ami-043c6475a52c9e11c][0m
+[0m[1maws_internet_gateway.main: Refreshing state... [id=igw-08d3a231e3d5dd8f1][0m
+[0m[1maws_subnet.private[0]: Refreshing state... [id=subnet-0c59a62bcc05504fd][0m
+[0m[1maws_subnet.private[1]: Refreshing state... [id=subnet-043270cb6c1b3c54a][0m
+[0m[1maws_subnet.public[0]: Refreshing state... [id=subnet-0542221b90ff4a674][0m
+[0m[1maws_subnet.public[1]: Refreshing state... [id=subnet-028042d0186e9fcf8][0m
+[0m[1maws_security_group.db: Refreshing state... [id=sg-0e46f0cb0ab620b07][0m
+[0m[1maws_security_group.api: Refreshing state... [id=sg-0561dd472226e0382][0m
+[0m[1maws_route_table.public: Refreshing state... [id=rtb-006a720b0feaff5d8][0m
+[0m[1maws_route_table_association.public[0]: Refreshing state... [id=rtbassoc-0baa976e959e7631d][0m
+[0m[1maws_route_table_association.public[1]: Refreshing state... [id=rtbassoc-0640ccac6040448b6][0m
+[0m[1maws_instance.api: Refreshing state... [id=i-09236937c8b873958][0m
+
+[0m[1m[32mNo changes.[0m[1m Your infrastructure matches the configuration.[0m
+
+[0mTerraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
