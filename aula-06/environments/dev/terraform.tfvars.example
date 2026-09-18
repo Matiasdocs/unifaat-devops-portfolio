@@ -1,4 +1,6 @@
-# environments/dev/terraform.tfvars
+# environments/dev/terraform.tfvars.example
+# Copie este arquivo para terraform.tfvars e preencha com valores reais.
+# NUNCA commite o terraform.tfvars de verdade (ele já está no .gitignore).
 
 aws_region   = "us-east-1"
 project_name = "technova"
@@ -29,14 +31,11 @@ subnets = {
   }
 }
 
-# Deixe "" para usar automaticamente a AMI mais recente da Amazon Linux 2023
 ami_id        = ""
 instance_type = "t2.micro"
-
-# Troque pelo nome do seu key pair (crie um no Learner Lab se ainda não tiver)
-key_name = "technova-key"
+key_name      = "technova-key"
 
 db_name           = "technova_dev"
 db_username       = "technova_admin"
-db_password       = "TechNovaDev2026Senha"
+db_password       = "TROQUE_ESTA_SENHA"
 db_instance_class = "db.t3.micro"
